@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --colors",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/dosbor3/wk12_content-management-system#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
     "express": "^4.17.3",
+    "inquirer": "^8.2.0",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
