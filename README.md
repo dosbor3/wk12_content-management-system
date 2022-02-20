@@ -28,21 +28,16 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
-To invoke the application, please visit the following site:
-
-*  https://note-taker-dosbor3.herokuapp.com/
-
-The user will then be redirected to the following page: 
-
+The application can't be invoked from the command line, please see the following demo video for further details.
+The video demonstrates the application's functionality in terms of successful API endpoints.  The video demonstration is complted using the Insomnia application and MySQL database.  The database was pre-populated with dummy data for demonstration purposes.
 
 
 ![image](https://user-images.githubusercontent.com/40706088/153780642-3e85b717-e43b-4107-a06e-47133f38e3ca.png)
 
-The user should click "Get Starrted"
+ 
 
 
 
-The user will then be redirected to the following page: 
 
 
 
@@ -50,26 +45,27 @@ The user will then be redirected to the following page:
 
 
     
-*  The user will enter a title for the note.  The user will also enter the details for the note below the title.  The user will click the diskett icon to save the note.  Future upgrades will allow the user to delete notes.
+
 
 ## Installation
 
-The application can be accessed at https://github.com/dosbor3/wk11_note-taker  
+The application can be accessed at https://github.com/dosbor3/wk12_content-management-system  
 
 ## Usage
 
 *  JavaScript
 *  Node JS
 *  npm
-*  File System
-*  heroku
+*  Insomnia
+*  MySQL2
+*  Inquirer
 *  Express.js
 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.  Source code can be found at https://github.com/dosbor3/wk11_note-taker
+Please make sure to update tests as appropriate.  Source code can be found at https://github.com/dosbor3/wk12_content-management-system
 
 
 
