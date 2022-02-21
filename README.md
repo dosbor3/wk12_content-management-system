@@ -28,11 +28,8 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
-The application can't be invoked from the command line, please see the following demo video for further details.
-The video demonstrates the application's functionality in terms of successful API endpoints.  The video demonstration is complted using the Insomnia application and MySQL database.  The database was pre-populated with dummy data for demonstration purposes.
 
-
-![image](https://user-images.githubusercontent.com/40706088/153780642-3e85b717-e43b-4107-a06e-47133f38e3ca.png)
+![image]![image](https://user-images.githubusercontent.com/40706088/154890453-ac2ff6dd-ffbe-4a65-adfd-30a65835e642.png)
 
  
 
@@ -41,7 +38,7 @@ The video demonstrates the application's functionality in terms of successful AP
 
 
 
-![image](https://user-images.githubusercontent.com/40706088/153780707-db1915f6-70c7-46ac-b7b5-4358cd4f4557.png)
+![image]![image](https://user-images.githubusercontent.com/40706088/154891745-a5700fbd-5134-449f-93ec-b707a8e2971b.png)
 
 
     
