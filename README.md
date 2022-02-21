@@ -64,8 +64,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.  Source code can be found at https://github.com/dosbor3/wk12_content-management-system
 
-
-
+## Video Demonstration of Application
+https://watch.screencastify.com/v/YJLI3K7RPQ1biMmNkbna
 
 
 
