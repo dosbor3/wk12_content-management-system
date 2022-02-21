@@ -27,7 +27,7 @@ db.connect(err => {
 
 
 
-function initialPrompt () {
+function initialPrompt() {
 
   inquirer
       .prompt([
@@ -47,23 +47,22 @@ function initialPrompt () {
               ]
           }
       ])
-      .then ((response) => {
-
-          if (response.action === "View Departments") {
+      .then ((res) => {
+          if (res.action === "View Departments") {
               viewDepartments();
-          } else if (response.action === "View Roles") {
+          } else if (res.action === "View Roles") {
               viewRoles();
-          } else if (response.action === "View Employees") {
+          } else if (res.action === "View Employees") {
               viewEmployees();
-          } else if (response.action === "Add New Department") {
+          } else if (res.action === "Add New Department") {
               addDepartment();
-          } else if (response.action === "Add New Role") {
+          } else if (res.action === "Add New Role") {
               addRole();
-          } else if (response.action === "Add New Employee") {
+          } else if (res.action === "Add New Employee") {
               addEmployee();
-          } else if (response.action === "Update Employee Roles") {
+          } else if (res.action === "Update Employee Roles") {
               updateEmployeeRoles();
-          } else if (response.action === "Exit") {
+          } else if (res.action === "Exit") {
               process.exit();
           }
 
